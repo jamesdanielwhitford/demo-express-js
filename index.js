@@ -36,7 +36,7 @@ bot.command('ethereum', ctx => {
 
 
 expressApp.use(bot.webhookCallback('/secret-path'))
-bot.telegram.setWebhook('<YOUR_CAPSULE_URL>/secret-path')
+bot.telegram.setWebhook('https://demo-telegram-nkmm.codecapsules.co.za/secret-path')
 
 
 // bot.launch()
